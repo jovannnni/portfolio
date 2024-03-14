@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a16768ab39.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image2.png">
+                <ul>
+                    
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="#">About</a></li>
+                    <li> <a href="#">Services</a></li>
+                    <li> <a href="#">Portfolio</a></li>
+                    <li> <a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Production Engineer <br></p>
+                <h6>I am an efficient and confident technical personnel with experienced of  <br>working in the Engineering 
+                    and Telecommunication Industry.</h6>
+                <h1>Hi, I'm <span>Jovanni</span> Doria <br> from Phillippines</h1>
+            </div>
+    </div>
+
+<!-- -------about--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="aboutme2.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"><br><br>About Me</h1>
+                    <p>My experienced helped me develop expert knowledge in the 
+                        Technology. I am highly motivated to continue learning and improving my skill. <br><br> I lived in Taoyuan City, Taiwan and currently working in Quanta Computer Inc. <br> as Production Engineer for almost one a half year.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Network Configuration <br></span><br>Focuses on managing a network and its devices by applying the right set of IP Addresses, Controls and Configurations.</li>
+                            <li><span>Access Control Design<br></span><br>A type of security devices that manages and controls who or what is allowed entrance to a system, environment or facility.</li>
+                            <li><span>Failure Analysis<br></span><br>Analyzing PCBA units by studying Electrical Schematic Diagram, troubleshoot and repairing each components  related to the Fail Code</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Support Engineer (June 2017 - Oct 2020) <br> </span><br>Integrated Security and Automation Inc. • Mandaluyong City, Philippines <br> • Managed/Supervised Installation projects such as Turnstiles, CCTV, Elevator Control and any 
+                                Access Control System. <br> • Research and Develope automation system. <br> • Simulation and Circuit testing.</li>
+                            <li><span>Field Engineer (Feb 2021 - Oct 20222) <br> </span><br>Digital Network Access Inc. • Mandaluyong City, Philippines <br> • Responsible for Network Migration and Modem Modernization. <br>• Power/Port Tracing and Fiber Optic Cable/Lan Cable Layout.
+<br>• Network Configuration (WAN/LAN)</li>
+                            <li><span>Prodcution Engineer (Aug 2022 - Present) <br> </span><br>Quanta Computer Inc. • Taoyuan City, Taiwan Republic of China <br> • Identify PCBA Fail Item and repairing them by analyzing Electrical Circuit Diagram. <br>• Machines testing and integration to ensure quality and stability.
+ <br> • Solve technical problems and provide technical solution and advice</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Access Computer College (June 2012 - May 2017)<br></span><br> • Bachelor's of Science in Computer Engineering Major in Robotics <br> • Special Student Awardee May 2017 <br>• Thesis Leader - Answer Sheet Vending Machine </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------services-------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title-1"><br><br>My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Access Control System</h2>
+                    <p><br>Creating a system that provide restriction and registration of the entry and exit of objects, people and vehicle in a given area thru the access points: doors, gates, checkpoints.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h2>Network Configuration</h2>
+                    <p><br>Primarily handle installing, configuring, and supporting firewalls to ensure network security, ensuring network connection such as routers or switches, which provides the best possible efficiency in a residencial and commercial building.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h2>Project Management</h2>
+                    <p><br>Supervised installation process from start to project turn-over, creating bill of materials, lead time, handling manpower and provides best solution for every problem.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------portfolio----------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title-1"><br><br>My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1.jpg">
+                    <div class="layer">
+                        <h3>PCBA Analysis</h3>
+                        <p>Analyzing PCBA fail code by reading schematic diagram.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.jpg">
+                    <div class="layer">
+                        <h3>Access Control System</h3>
+                        <p>Designing Security System for better entrance and exit.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work3.jpg">
+                    <div class="layer">
+                        <h3>Network Configuration</h3>
+                        <p>Troubleshoot and Analyze internet connection. etc etc.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>  
+            <a href="#" class="btn">See more</a>        
+        </div>
+    </div>
+
+    <!-- ==========contact============= -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                        <p>jovanni@yahoo.com</p>
+                        <p>0912345689</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#"><i class="fa-brands fa-google"></i></i></a>
+                            <a href=""><i class="fa-solid fa-bars"></i></a>
+                        </div>
+                <div class="contact-right"></div>
+        </div>
+    </div>
+ <script>
+    
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");    
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");            
+        } 
+        event.currentTarget.classList.add("active-link"); 
+        document.getElementById(tabname).classList.add("active-tab");      
+    }
+            
+ </script>         
+</body>
+</html>
